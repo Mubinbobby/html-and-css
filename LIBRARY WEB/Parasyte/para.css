@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230416/pngtree-sky-manga-style-background-image_2371262.jpg);
+    background-size: cover;
+    background-color: rgb(228, 232, 253);
+    background-blend-mode: overlay;
+}
+.img1{
+    max-width: 20%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+    box-shadow: 10px 10px 5px rgb(46, 46, 49);
+    
+}
+.shop{
+    display: flex;
+    justify-content: flex-end;
+    padding:100px;
+    gap:5%;
+    margin: auto;
+}
+.content h2{
+    color: rgb(243, 2, 2);
+    display: flex;
+    margin: auto
+}
+.discription{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.discription h3{
+    color: gray;
+}
+.similar{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 5% 10%;
+    column-gap: 5%;    
+}
+.sb{
+    background-color: rgb(0, 0, 0);
+    padding:1% ;  
+    border: 1px solid black; 
+    margin: auto;
+}
+.container2 h2{
+    color:gray;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.similar a{
+    text-decoration: none;
+    color: red;
+}
+.sb:hover{
+    transform: scale(1.02);
+}

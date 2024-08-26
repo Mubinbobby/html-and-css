@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="img">
+                <a class="navbar-brand" href="http://127.0.0.1:5500/home/home.html?#"><img src="https://upload.wikimedia.org/wikipedia/en/7/7f/Manga_Entertainment.svg" alt="Manga" width="50px" height="50px">
+                </a>
+            </div>
+        
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="container">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold" aria-current="page" href="http://127.0.0.1:5500/home/home.html?#">Home</a>
+                    </li>
+                    <li class="nav-item fs-5 fw-bold">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item fs-5 fw-bold">
+                        <a class="nav-link" href="#">ContactUs</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fs-5 fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Order</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">View Cart</a></li>
+                            <li><a class="dropdown-item" href="#">Track Order</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Order Summary</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 fw-bold text-danger" href="http://127.0.0.1:5500/Login/login.html" aria-current="true">SignIn</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <form class=" loginform form-group">
+            <div class="mb-3 bg p-5 rounded-4">
+                <h2 class="text-center pt-2">Login to our store</h2>
+                <label for="exampleFormControlInput1" class="form-label mt-4 fw-semibold">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+             
+                <label for="exampleFormControlInput1" class="form-label mt-3 fw-semibold">Password</label>
+                <input type="password" class="form-control" id="exampleFormControlInput1">
+
+               <button class="mt-4 rounded loginbtn">Login</button>
+<br><br>
+               <a href="#">Forgot Password ?</a>
+            </div>
+
+            <p><b>Don't have an account ?</b> <a href="http://127.0.0.1:5500/Signup/Signup.html">Register here</a></p>
+
+        </form>
+
+    </div>
+<br><br><br>
+
+<footer class="bg-dark text-white mt-5">
+    <div class="container py-4">
+        <div class="row">
+           
+            <div class="col-md-4">
+                <h5>About Us</h5>
+                <p>We are a company dedicated to providing the best services and products to our customers. Our commitment to excellence ensures we always deliver top-quality experiences.</p>
+            </div>
+           
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="http://127.0.0.1:5500/home/home.html" class="text-white">Home</a></li>
+                    <li><a href="#" class="text-white">About</a></li>
+                    <li><a href="#" class="text-white">Services</a></li>
+                    <li><a href="#" class="text-white">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <p>
+                    Bobby Manga, Kerala, India<br>
+                    Email: bobbymubinm@gmail.com<br>
+                    Phone: 9746123171
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="text-center py-3">
+        © 2024 Your Company. All rights reserved.
+    </div>
+</footer>
+
+</body>
+</html>

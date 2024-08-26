@@ -1,0 +1,92 @@
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230416/pngtree-sky-manga-style-background-image_2371262.jpg);
+    background-size: cover;
+    background-color: rgb(228, 232, 253);
+    background-blend-mode: overlay;
+}
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.collection{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.books11{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 5% 10%;
+    column-gap: 5%;
+}
+.book1{
+    background-color: rgb(0, 0, 0);
+    padding:1% ;  
+    border: 1px solid black; 
+    margin: auto;
+}
+.book1:hover{
+    transform: scale(1.02);
+}
+.books11 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.books22{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 5% 10%;
+    column-gap: 5%;
+}
+.book2{
+    background-color: rgb(0, 0, 0);
+    padding:1% ;  
+    border: 1px solid black; 
+    margin: auto;
+}
+.books22 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.book2:hover{
+    transform: scale(1.02);
+}
+
+  
+  @media screen and (max-width: 600px) {
+    div.books11{
+        flex-direction: column;
+        row-gap: 20px;
+      }
+  }
+  @media screen and (max-width: 600px) {
+    div.books22{
+        flex-direction: column;
+        row-gap: 20px;
+      }
+  }
+.book1 a{
+    text-decoration: none;
+    color: red;
+}
+.book2 a{
+    text-decoration: none;
+    color: red;
+}
+.book1 a:hover{
+    color: rgb(184, 184, 245);
+}
+.book2 a:hover{
+    color: rgb(184, 184, 245);
+}
